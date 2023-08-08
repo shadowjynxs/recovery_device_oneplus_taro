@@ -2,7 +2,7 @@
   
 #!/usr/bin/env bash
 export ALLOW_MISSING_DEPENDENCIES=true
-FDEVICE="udon"
+FDEVICE="taro"
 #set -o xtrace
 
 fox_get_target_device() {

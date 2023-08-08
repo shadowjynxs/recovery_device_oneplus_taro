@@ -10,7 +10,7 @@ DEVICE_PATH := device/$(PRODUCT_BRAND)/$(PRODUCT_DEVICE)
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 LC_ALL := C
-FOX_BUILD_DEVICE=udon
+FOX_BUILD_DEVICE=taro
 TW_INCLUDE_PYTHON := true
 
 # Architecture

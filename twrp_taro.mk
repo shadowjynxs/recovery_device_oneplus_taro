@@ -6,7 +6,7 @@
 #
 
 # Product Information
-PRODUCT_DEVICE := udon
+PRODUCT_DEVICE := taro
 PRODUCT_RELEASE_NAME := $(PRODUCT_DEVICE)
 PRODUCT_NAME := twrp_$(PRODUCT_DEVICE)
 PRODUCT_BRAND := oneplus
@@ -21,8 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 # Inherit some common Twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from udon device
-$(call inherit-product, device/oneplus/udon/device.mk)
+# Inherit from taro device
+$(call inherit-product, device/oneplus/taro/device.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -35,11 +35,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="OnePlus/twrp_udon/udon:16.1.0/SP2A.220405.004/zen:eng/test-keys" \
+    PRIVATE_BUILD_DESC="OnePlus/twrp_taro/taro:16.1.0/SP2A.220405.004/zen:eng/test-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := OnePlus/twrp_udon/udon:16.1.0/SP2A.220405.004/zen:eng/test-keys
+BUILD_FINGERPRINT := OnePlus/twrp_taro/taro:16.1.0/SP2A.220405.004/zen:eng/test-keys
 
 # Virtual A/B OTA
 ENABLE_VIRTUAL_AB := true

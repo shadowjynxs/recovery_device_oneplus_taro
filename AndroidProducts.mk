@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_udon.mk
+    $(LOCAL_DIR)/twrp_taro.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_udon-user \
-    twrp_udon-userdebug \
-    twrp_udon-eng
+    twrp_taro-user \
+    twrp_taro-userdebug \
+    twrp_taro-eng

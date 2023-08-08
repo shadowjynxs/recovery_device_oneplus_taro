@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),udon)
+ifeq ($(TARGET_DEVICE),taro)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
