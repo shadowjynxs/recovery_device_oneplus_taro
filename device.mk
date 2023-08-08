@@ -2,7 +2,7 @@
 # Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
 # SPDX-License-Identifier: Apache-2.0
 
-LOCAL_PATH := device/oneplus/udon
+LOCAL_PATH := device/oneplus/taro
 
 # A/B Post-Instal Config
 AB_OTA_POSTINSTALL_CONFIG += \
